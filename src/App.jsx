@@ -22,7 +22,7 @@ function App() {
 
       <Guide />
 
-      {/* <GameBord />
+      <GameBord />
 
       <Personalized />
 
@@ -32,7 +32,7 @@ function App() {
 
       <Testimonial />
 
-      <Footer />  */}
+      <Footer /> 
     </>
   );
 }
