@@ -9,7 +9,7 @@ const CoinCard = ({src,alt}) => {
       <div>
         <img src={src} alt={alt} />
       </div>
-      <div className="bg-linear-0 from-black to-black/0 absolute bottom-0 left-0 right-0 h-[80%] p-10 pl-[12px] rounded-b-[16px]">
+      <div className="bg-linear-0 from-black to-black/0 absolute bottom-0 left-0  right-0 h-[80%] p-10 pl-[12px] rounded-b-[16px]">
         <div className="flex items-center gap-1">
           <div className="w-2 h-2">
             <img src={profile} alt="" />

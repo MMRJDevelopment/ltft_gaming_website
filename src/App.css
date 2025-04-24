@@ -8,10 +8,10 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(240, 0, 0, 0.41);
-  opacity: 41%;
+  background: rgba(170, 0, 0, 0.151);
+
   z-index: -1;
-  height: 60px;
+  height: auto;
   width: 100%;
 }
 
@@ -82,7 +82,6 @@
   color: #fff;
   text-align: center;
   font-family: Roboto;
-  font-size: 56px;
   font-style: normal;
   font-weight: 900;
   line-height: 120%;
@@ -92,11 +91,9 @@
   color: #fff;
   text-align: center;
   font-family: Roboto;
-  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 18px;
   margin-top: 8px;
 }
 
@@ -104,11 +101,9 @@
   color: #fff;
   text-align: center;
   font-family: Roboto;
-  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 789px;
 }
 
 .card-title {
@@ -145,32 +140,22 @@
   color: #fff;
   text-align: center;
   font-family: Roboto;
-  font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-left: 63px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .tft-para {
   color: #fff;
-  text-align: center;
   font-family: Roboto;
-  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-left: 63px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .boost-title {
   color: #fff;
   font-family: Roboto;
-  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
@@ -179,23 +164,16 @@
 .boost-para {
   color: #fff;
   font-family: Roboto;
-  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  width: 651px;
-  padding-top: 20px;
-  padding-bottom: 40px;
 }
 
 .master-title {
   color: #fff;
   font-family: Roboto;
-  font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  width: 276px;
 }
 
 /* all set-guide css start */
@@ -970,6 +948,7 @@
   height: 61.662px;
   border-radius: 100%;
 }
+
 
 @media only screen and (max-width: 600px) {
   .item1 {
