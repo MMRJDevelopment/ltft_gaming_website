@@ -4,26 +4,26 @@ import inconi from "../../assets/inconi.png";
 import { FaYoutube } from "react-icons/fa";
 const Personalized = () => {
   return (
-    <div className="bg-[#060606] pt-[108px]">
-    <div className=" container mx-auto flex justify-between items-center">
+    <div className="bg-[#060606] pt-10 xl:pt-[108px]">
+    <div className=" container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 xl:px-0 xl:max-w-[75rem] h-auto  flex flex-wrap xl:flex-nowrap justify-between items-center">
       <div>
-        <h3 className="tft-title-1">
+        <h3 className="tft-title-1 lg:text-[48px] xl:w-[460px] text-2xl ">
           Personalized <span className="text-[#E5CE51]">TFT coaching</span>
         </h3>
-        <p className="ptft-para">
+        <p className="ptft-para py-4 lg:text-[20px] text-wrap text-[14px] xl:w-[485px] lg-w-full ">
           Transform your gameplay with tailored coaching sessions designed
           specifically for you. Get one-on-one guidance from seasoned TFT
           experts who will analyze your strengths and weaknesses, provide
           actionable insights, and help you refine your strategies.
         </p>
       </div>
-      <div className="relative">
+      <div className="relative lg:w-full ">
         <div>
-          <img src={viderthem} alt="" />
+          <img src={viderthem} alt="" className='lg:bg-cover lg:w-full' />
         </div>
         <div className="flex justify-center items-center gap-3 absolute top-5 left-6">
-          <img src={inconi} alt="" />
-          <h4 className="invideopara">
+          <img src={inconi} alt=""  />
+          <h4 className="invideopara lg:text-[18px] ">
             Incantor Emblem should be used on Vex as she will be casting{" "}
           </h4>
         </div>

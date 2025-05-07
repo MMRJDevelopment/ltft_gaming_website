@@ -24,7 +24,7 @@ function App() {
 
       <GameBord />
 
-      <Personalized />
+       <Personalized />
 
       <GameFind />
 
@@ -33,6 +33,7 @@ function App() {
       <Testimonial />
 
       <Footer /> 
+
     </>
   );
 }
